@@ -1,10 +1,10 @@
 # LetterTranslator
 
-for Linux
+tested it on Linux, but it should also work with Mac and Windows
 
-create a python virtual environment (optional), then run the following:
+create a python virtual environment (optional), then downlaod the prerequisites by running the following:
 ```
-sudo apt-get install scrot
+sudo apt-get install scrot (for Linux only, possible that you'll need something else for other systems)
 pip install pycairo
 pip install Pillow
 pip install PyAutoGUI
